@@ -35,5 +35,5 @@ public class Calculate {
 		answer = ((numb * pie)/ halfCircle);
 		return answer;
 	}
-	public static double discriminant(double )
+	
 }
