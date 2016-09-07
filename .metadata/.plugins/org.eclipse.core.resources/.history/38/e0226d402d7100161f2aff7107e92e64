@@ -23,17 +23,21 @@ public class Calculate {
 	}
 	public static double toDegrees(double numb){
 		double answer;
-		double pie = 3.14159;
-		double halfCircle = 180;
-		answer = ((halfCircle / pie)* numb);
+		answer = ((180 / 3.14159)* numb);
 		return answer;	
 	}
 	public static double toRadians(double numb){
 		double answer;
-		double pie = 3.14159;
-		double halfCircle = 180;
-		answer = ((numb * pie)/ halfCircle);
+		answer = ((numb * 3.14159)/ 180);
 		return answer;
 	}
-	public static double discriminant(double )
+	public static double discriminant(double b, double a, double c){
+		double answer;
+		answer = ((b * b) - 4 * a * c);
+	    return answer;
+	}
+	public static int toImproperFrac(int whole, int numerator, int denominator){
+		
+	}
+		
 }

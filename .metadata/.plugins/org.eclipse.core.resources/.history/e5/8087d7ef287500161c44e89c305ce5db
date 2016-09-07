@@ -16,7 +16,7 @@ public class Calculate {
 		answer = ((numb + numb)/ 2);
 		return answer;
 	}
-	public static double average2(double numb){
+	public static double average(double numb){
 		double answer;
 		answer = ((numb + numb + numb)/ 3);
 		return answer;
@@ -48,47 +48,18 @@ public class Calculate {
 	}
 	public static int foil(int numb1, int numb2, int numb3, int numb4, int numbx){
 		int answer;
-		answer = ((numb1 * numbx) + numb2) * (numb3 * numbx) + numb4));
+		answer = ((numb1 * numbx + numb2)(numb3 * numbx + numb4));
 		return answer;
 	}
 	public static int isDivisibleBy(int numb1, int numb2){
-		if (numb1 % numb2 == 0){
-		System.out.println(numb1 + "is divisible by" + numb2);
-		return numb1;
-		}
-		else{
-		System.out.println(numb1 + "is not divisible by" + numb2);
-		}
+		
 	}
 	public static double absValue(double numb){
-		if (numb < 0){
-		double numb2 = numb * -1;
-		return numb2;
-		}
-		else{
-			return numb;
-		}
+		
 	}
 	public static int max(int numb1, int numb2){
-		if (numb1 > numb2){
-			return numb1;
-		}
-		else{
-			return numb2;
-		}
-	}
- 	public static int max2(int numb1, int numb2, int numb3){
- 		if (numb1 > numb2 && numb3){
- 			return numb1;
- 		}
- 		else{
- 			(numb2 > numb3 && numb 1);
- 			return numb2;
- 		}
- 		}
 	public static double round2(double numb){
-		answer = numb * 100;
-		
+		answer1 = numb * 100;
 		
 	}
 }
