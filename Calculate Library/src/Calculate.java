@@ -48,16 +48,16 @@ public class Calculate {
 	}
 	public static int foil(int numb1, int numb2, int numb3, int numb4, int numbx){
 		int answer;
-		answer = ((numb1 * numbx) + numb2) * (numb3 * numbx) + numb4));
+		answer = ((numb1 * numbx) + numb2) * ((numb3 * numbx) + numb4);
 		return answer;
 	}
-	public static int isDivisibleBy(int numb1, int numb2){
+	public static boolean isDivisibleBy(int numb1, int numb2){
 		if (numb1 % numb2 == 0){
-		System.out.println(numb1 + "is divisible by" + numb2);
-		return numb1;
+		return true;
 		}
 		else{
 		System.out.println(numb1 + "is not divisible by" + numb2);
+		return false;
 		}
 	}
 	public static double absValue(double numb){
@@ -78,20 +78,39 @@ public class Calculate {
 		}
 	}
  	public static int max2(int numb1, int numb2, int numb3){
- 		if (numb1 > numb2 && numb3){
+ 		if (numb1 > numb2 && numb1 > numb3){
  			return numb1;
  		}
  		else{
- 			(numb2 > numb3 && numb 1);
+ 			if (numb2 > numb3 && numb2 > numb1);
  			return numb2;
+ 		}
+ 		else{
+ 		    return numb3;
  		}
  		}
 	public static double round2(double numb){
-		answer = numb * 100;
-		
+		numb = numb + .005;
+		double roundNumb = (int)numb * 100;
+		return (roundNumb / 100);
 		
 	}
-	public static int (int numb1, int numb2)
+	public static double exponent(double numb1, int numb2){
+		for (int numb3 = 1;numb3 <= numb2;numb3++);
+	    numb1 = numb1 * numb1;
+	    return numb1;
+	}
+	public static int factorial(int numb1){
+		int solution = 1;
+		for(int numb2 = 2; numb2 <= numb1; numb2++){
+			solution = solution * numb1;
+		}
+		return solution;
+	}
+	public static boolean isPrime(int numb1);
+		if(numb1){
+			
+		}
 }
 
 
