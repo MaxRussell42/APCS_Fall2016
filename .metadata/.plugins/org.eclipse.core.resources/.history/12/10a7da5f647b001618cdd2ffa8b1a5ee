@@ -111,8 +111,6 @@ public class Calculate {
 		if(numb1){
 			
 		}
-	//square root algorithm sqrt(n+1)=(sqrt(n)+(num/sqrt(n)))/2.0
-		//ex: sqrt5=(sqrt4 + (5/sqrt4))/2 -->
 }
 
 
