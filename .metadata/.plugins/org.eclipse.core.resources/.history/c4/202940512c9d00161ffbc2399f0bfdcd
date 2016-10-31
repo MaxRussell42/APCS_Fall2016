@@ -1,0 +1,16 @@
+
+public class LotsOfCopies {
+	public static void main(String[]args){
+		int num = 7;  						
+		System.out.println(num);					//should print the number 7
+		String strMain = "APCS";
+		System.out.println(strMain);											//displays the word APCS
+		int[] arrMain = {1, 2, 3, 4, 5};
+		print(arrMain);
+	}
+	//Method to print arrays
+	public static void print(int[] list){
+		System.out.print(list[0]);
+		
+	}
+}
