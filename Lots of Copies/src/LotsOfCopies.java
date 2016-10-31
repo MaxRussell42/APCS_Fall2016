@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class LotsOfCopies {
 	public static void main(String[]args){
@@ -6,14 +7,7 @@ public class LotsOfCopies {
 		String strMain = "APCS";
 		System.out.println(strMain);											//displays the word APCS
 		int[] arrMain = {1, 2, 3, 4, 5};
-		print(arrMain);
-	}
-	//Method to print arrays
-	public static void print(int[] arrMain){
-		System.out.print(arrMain[0]);
-		for (int i = 1; i < arrMain.length; i++){
-			System.out.print(", " + arrMain[i]);
-		}
+		System.out.println(Arrays.toString(arrMain));
 	}
 	public static void changeMe(int x, String str, int[] arr){
 		
